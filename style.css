@@ -1,0 +1,14 @@
+body {
+    background-color: #deedd1;
+}
+
+.header
+{
+    text-align: center;
+    border:dashed;
+    margin: 1rem;
+}
+
+.introduction{
+    text-align:center;
+}
