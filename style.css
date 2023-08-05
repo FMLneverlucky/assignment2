@@ -29,7 +29,7 @@ nav ul li{
     justify-content: center;
 }
 
-h3
+h2
 {
     text-align: center;
 }
@@ -37,4 +37,20 @@ h3
 .subcontent
 {
     padding: 0 5vw;
+    text-align: center;
+}
+
+.collapsible-header-button
+{
+    display: inherit; /*under subsubcontent class
+    dont know how to explain, head empty but big brain at the same time*/
+    flex-basis: 100%;
+    padding: 0 15vw;
+    justify-content: center;
+}
+
+.subsubcontent
+{
+    display: flex;
+    flex-wrap: wrap;
 }
