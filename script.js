@@ -46,7 +46,7 @@ hide content when header clicked (collapse content under header)
 arrow img change to arrow down when content collapsed */
 function toggle_content_visibility(pageNum) {
     let onepage =document.querySelector("#med-pg-" + pageNum);
-    if (onepage.style.display == "block")
+    if (onepage.style.display == "flex")
     {
         onepage.style.display = "none";
         return;
@@ -59,9 +59,24 @@ function toggle_content_visibility(pageNum) {
     }
     */
    else{
-    onepage.style.display = "block";
+    onepage.style.display = "flex";
    }
 }
 Med_Pg_1.addEventListener("click", function () {toggle_content_visibility(1);} );
 Med_Pg_2.addEventListener("click", function () {toggle_content_visibility(2);} );
 Med_Pg_3.addEventListener("click", function () {toggle_content_visibility(3);} );
+/*-------------------------------------------------collapsible content code end-------------------------------------------------- */
+
+/*---------------------------------------------------questionaire transition here------------------------------------------------ */
+const prev = document.querySelector("#prev");
+const next = document.querySelector("#next");
+var allQns = document.querySelectorAll(".form-questions")
+console.log(allQns);
+
+/*
+function get-qn-num()
+{
+    document.querySelector(allQns).
+}
+*/
+/*-----------------------------------------------------questionaire transition end----------------------------------------------- */

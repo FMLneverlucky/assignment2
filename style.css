@@ -54,3 +54,52 @@ h2
     display: flex;
     flex-wrap: wrap;
 }
+.collapsible-content
+{
+    display: inherit;
+    flex-basis: 100%; /*have to define size here and not under subsubcontent because parent of subsubcontent is block -> defining basis for subsub will not work*/
+    justify-content: center;
+    text-align: center;
+    background-color: #c1e0a6;
+    border-style: groove;
+}
+
+/*questionaire related bit*/
+.ant-form
+{
+    display:flex;
+    justify-content: center;
+    margin: 3rem;
+    border-style: dashed;
+    background-color: #c1e0a6;
+    flex-wrap: wrap; /*header and questionaire squeeze on same line*/
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-questions
+{
+    display:inherit;
+    flex-basis: 100%;
+    justify-content: center;
+}
+/*questionaire buttons*/
+.questionaire-transition
+{
+    height: 3rem;
+    width: 3rem;
+}
+/*questionaire buttons end*/
+/*questionaire bit end*/
+@media screen and (max-width: 540px) /*limit until 540*/
+{
+    nav ul li{
+        display: flex;
+        flex-basis: 100%;
+    }
+    
+}
