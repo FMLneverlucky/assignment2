@@ -104,22 +104,29 @@ label{
 /*questionaire bit end*/
 @media screen and (max-width: 540px) /*limit until 540*/
 {
-    nav ul li{
+    body
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .header
+    {
         display: flex;
         flex-basis: 100%;
         justify-content: center;
     }
-    
-    nav
+    .introduction
     {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
     }
     p
     {
-        display: flex;
-        flex-wrap: wrap;
+        justify-content: center;
+        flex-basis: 100%;
+        margin: 0.5rem 0;
     }
     iframe
     {
@@ -131,4 +138,13 @@ label{
         display: flex;
         justify-content: center;
     }
+}
+@media screen and (max-width: 800px) /*limit until 540*/
+{
+    iframe
+    {
+        width: inherit;
+        height: inherit;
+    }
+
 }
