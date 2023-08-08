@@ -110,4 +110,25 @@ label{
         justify-content: center;
     }
     
+    nav
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    p
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    iframe
+    {
+        width: inherit;
+        height: inherit;
+    }
+    #qn3
+    {
+        display: flex;
+        justify-content: center;
+    }
 }
