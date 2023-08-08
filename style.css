@@ -79,6 +79,7 @@ form{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 2rem;
 }
 
 .form-questions
@@ -86,20 +87,27 @@ form{
     display:inherit;
     flex-basis: 100%;
     justify-content: center;
+    flex-wrap: wrap;
+
 }
-/*questionaire buttons*/
-.questionaire-transition
+
+label{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+#form-submit
 {
-    height: 3rem;
-    width: 3rem;
+    margin: 2rem;
 }
-/*questionaire buttons end*/
 /*questionaire bit end*/
 @media screen and (max-width: 540px) /*limit until 540*/
 {
     nav ul li{
         display: flex;
         flex-basis: 100%;
+        justify-content: center;
     }
     
 }

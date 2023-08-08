@@ -91,22 +91,27 @@
         </h2>
         <form>
             <div class="form-questions" id="qn1">
-                User id: <input type="text" name="id" size="12" min="5" max="12" required />
+                <label for="qn1">Do you stay up at night frequently?: </label>
+                <input type="radio" id="true" name="agree">yes</input>
+                <input type="radio" id="false" name="disagree"> no </input>
             </div>
             <div class="form-questions" id="qn2">
-                Password: <input type="text" name="pw" required />
+                <label for="qn2">Can you adapt to your surroundings easily?: </label>
+                <input type="radio" id="true" name="agree">yes</input>
+                <input type="radio" id="false" name="disagree"> no </input>
             </div>
             <div class="form-questions" id="qn3">
-                Name: <input type="text" name="username" required />
+                <label for="qn3">What would be your prefered way protecting yourself?: </label>
+                <input type="radio" id="option1" name="option1" value="Acid Spray">Acid Spray</input>
+
+                <input type="radio" id="option2" name="option2" value="Brute Force"> Brute Force</input>
+
+                <input type="radio" id="option3" name="option3" value="Overwhelm">Overwhelm using numbers(having mates to join you)</input>
+
+                <input type="radio" id="option4" name="option4" > Scare them away </input><br>
             </div>
-            <div class="form-questions" id="qn4">
-                Address: <input type="text" name="user_address" required />
-            </div>
-            <button type="button" class="questionaire-transition" id="prev">
-                prev
-            </button>
-            <button type="button" class="questionaire-transition" id="next">
-                next
+            <button type="button" id="form-submit">
+                Submit
             </button>
         </form>
     </div>
